@@ -1,5 +1,5 @@
-import logo from '../assets/LOGO.svg'
-import '../styles/Header.css'
+import logo from '../assets/LOGO.svg';
+import '../styles/Header.css';
 
 function Header() {
     return (
@@ -10,7 +10,7 @@ function Header() {
                 <a href='#'>A Propos</a>
             </div>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;
