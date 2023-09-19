@@ -1,0 +1,13 @@
+
+.kasa-gallery {
+    width: 1240px;
+    height: 829px;
+    border-radius: 25px;
+    background: #F6F6F6; 
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding-top: 56px;
+    padding-bottom: 43px;
+}
