@@ -1,5 +1,5 @@
 
-.kasa-header {
+.kasaHeader {
     display: flex;
     width: 1240px;
     height: 68px;
@@ -8,19 +8,19 @@
     gap: 720.678px;
 }
 
-.kasa-header img {
+.kasaHeader img {
     width: 210.322px;
     height: 68px;
     flex-shrink: 0;
 }
 
-.kasa-header_nav {
+.kasaHeader_nav {
     display: flex;
     align-items: flex-start;
     gap: 57px;
 }
 
-.kasa-header_nav a {
+.kasaHeader_nav a {
     color: #FF6060;
     color: #FF6060;
     text-align: right;

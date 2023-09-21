@@ -1,5 +1,5 @@
 
-.kasa-footer {
+.kasaFooter {
     display: flex;
     width: 1440px;
     height: 209px;
@@ -9,13 +9,13 @@
     align-items: center;
 }
 
-.kasa-footer img {
+.kasaFooter img {
     width: 122px;
     height: 39.444px; 
     fill: white;
 }
 
-.kasa-footer p {
+.kasaFooter p {
     color: #FFF;
     text-align: center;
     font-family: Montserrat;

@@ -1,8 +1,8 @@
-import '../styles/Card.css';
+import Classes from '../styles/Card.module.css';
 
 const Card = ({ item }) => {
     return (
-        <div className="kasa-card">
+        <div className={Classes.kasaCard}>
             <img src={item.cover} alt={item.title}></img>
             <p>{item.title}</p>
         </div>

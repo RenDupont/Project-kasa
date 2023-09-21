@@ -1,9 +1,9 @@
 import logo from '../assets/LOGO.svg';
-import '../styles/Footer.css';
+import Classes from '../styles/Footer.module.css';
 
 function Footer() {
     return (
-        <div className='kasa-footer'>
+        <div className={Classes.kasaFooter}>
             <img src={logo} alt='Kasa'></img>
             <p>© 2020 Kasa. All rights reserved</p>
         </div>

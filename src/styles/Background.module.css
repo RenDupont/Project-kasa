@@ -1,5 +1,5 @@
 
-.kasa-background {
+.kasaBackground {
     background-image: url('../assets/IMG.png');
     background-repeat: no-repeat;
     width: 1240px;
@@ -9,7 +9,7 @@
     filter: brightness(70%);
 }
 
-.kasa-background p {
+.kasaBackground p {
     color: #FFF;
     font-family: Montserrat;
     font-size: 48px;

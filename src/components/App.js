@@ -3,11 +3,11 @@ import Header from './Header';
 import Gallery from './Gallery'
 import Footer from './Footer';
 import data from '../data/logements.json';
-import '../styles/App.css';
+import Classes from '../styles/App.module.css';
 
 function App() {
     return (
-        <div className='kasa-app'>
+        <div className={Classes.kasaApp}>
             <Header />
             <Background />
             <Gallery data={data} />
