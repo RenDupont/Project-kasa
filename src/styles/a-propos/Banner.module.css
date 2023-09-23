@@ -1,0 +1,10 @@
+
+.kasaBanner {
+    background-image: url('../../assets/kalen-emsley-Bkci_8qcdvQ-unsplash\ 2.png');
+    background-repeat: no-repeat;
+    width: 1240px;
+    height: 223px;
+    background-position-y: -300px;
+    border-radius: 25px;
+    filter: brightness(70%);
+}

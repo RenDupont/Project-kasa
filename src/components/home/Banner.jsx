@@ -1,8 +1,8 @@
-import Classes from '../../styles/home/Background.module.css';
+import Classes from '../../styles/home/Banner.module.css';
 
 function Background() {
     return (
-        <div className={Classes.kasaBackground}>
+        <div className={Classes.kasaBanner}>
             <p>Chez vous, partout et ailleurs</p>
         </div>
     );

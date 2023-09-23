@@ -1,4 +1,4 @@
-import Background from './Background';
+import Banner from './Banner';
 import Header from './Header';
 import Gallery from './Gallery'
 import Footer from './Footer';
@@ -8,7 +8,7 @@ function index() {
     return (
         <div className={Classes.kasaApp}>
             <Header />
-            <Background />
+            <Banner />
             <Gallery />
             <Footer />
         </div>
