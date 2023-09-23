@@ -1,4 +1,4 @@
-import Classes from '../styles/Card.module.css';
+import Classes from '../../styles/home/Card.module.css';
 
 const Card = ({ item }) => {
     return (

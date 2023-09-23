@@ -1,4 +1,4 @@
-import Classes from '../styles/Background.module.css';
+import Classes from '../../styles/home/Background.module.css';
 
 function Background() {
     return (

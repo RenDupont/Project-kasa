@@ -1,7 +1,8 @@
 import Card from "./Card";
-import Classes from '../styles/Gallery.module.css';
+import Classes from '../../styles/home/Gallery.module.css';
+import data from '../../data/logements.json';
 
-const Gallery = ({ data }) => {
+const Gallery = () => {
     return (
         <div className={Classes.kasaGallery}>
             {data.map((item) => (
