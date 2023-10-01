@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Classes from '../../styles/logement/LogementDetails.module.css';
 import Dropdown from "./Dropdown";
+import Carousel from './Carousel';
 import logement from "../../data/logements.json";
 
 function LogementDetails() {
@@ -9,7 +10,7 @@ function LogementDetails() {
 
     return (
         <section className={Classes.kasaLogementDetails}>
-            <img className={Classes.kasaLogementDetails_carousel} src={Logement.cover} alt={Logement.title}></img>
+            <Carousel images={Logement.pictures} />
             <div className={Classes.kasaLogementDetails_title}>
                 <h1>{Logement.title}</h1>
                 <div className={Classes.kasaLogementDetails_host}>

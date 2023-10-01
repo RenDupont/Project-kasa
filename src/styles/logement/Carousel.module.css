@@ -1,0 +1,36 @@
+
+
+.KasaCarousel {
+    height: 415px;
+    max-width: 1240px;
+    position: relative;
+}
+
+.KasaCarousel_cover {
+    height: 415px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px; 
+}
+
+.KasaCarousel_previous {
+    position: absolute;
+    cursor: pointer;
+    width: 46.68px;
+    height: 79.2px;
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    fill: white;
+}
+
+.kasaCarousel_next {
+    position: absolute;
+    cursor: pointer;
+    width: 46.68px;
+    height: 79.2px;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    fill: white;
+}
