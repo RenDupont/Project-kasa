@@ -1,0 +1,21 @@
+
+
+.kasaStarRating {
+    position: absolute;
+    top: 515px;
+    right: 0px;
+    font-size: 30px;
+    color: grey;
+}
+
+.kasaStarRating_red {
+    color: #FF6060;
+}
+
+@media (max-width: 400px) {
+    .kasaStarRating {
+        left: 0;
+        right: auto;
+        top: 423px;
+    }
+}

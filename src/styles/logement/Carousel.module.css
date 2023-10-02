@@ -34,3 +34,24 @@
     transform: translate(-50%, -50%);
     fill: white;
 }
+
+@media (max-width: 400px) {
+    .KasaCarousel {
+        height: 255px;
+        max-width: 335px;
+    }
+
+    .KasaCarousel_cover {
+        height: 255px;
+    }
+
+    .kasaCarousel_next {
+        width: 24px;
+        height: 24px;
+    }
+
+    .KasaCarousel_previous {
+        width: 24px;
+        height: 24px;
+    }
+}

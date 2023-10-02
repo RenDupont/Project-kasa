@@ -1,5 +1,5 @@
 import logo from '../../assets/LOGO.svg';
-import Classes from '../../styles/home/Header.module.css';
+import Classes from '../../styles/logement/Header.module.css';
 import { Link } from 'react-router-dom';
 
 function Header() {

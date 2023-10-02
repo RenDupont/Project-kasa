@@ -1,12 +1,14 @@
 import logo from '../../assets/LOGO.svg';
-import Classes from '../../styles/home/Footer.module.css';
+import Classes from '../../styles/logement/Footer.module.css';
 
 function Footer() {
     return (
-        <div className={Classes.kasaFooter}>
-            <img src={logo} alt='Kasa'></img>
-            <p>© 2020 Kasa. All rights reserved</p>
-        </div>
+        <footer className={Classes.kasaFooter}>
+            <div>
+                <img src={logo} alt='Kasa'></img>
+                <p>© 2020 Kasa. All rights reserved</p>
+            </div>
+        </footer>
     );
 }
 
