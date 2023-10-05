@@ -19,3 +19,11 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+/*
+* continuer le responsive
+* changer les icones qui ne coresponde pas
+* modifier le dropdown
+* faire la transition du dropdown
+*/

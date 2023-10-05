@@ -1,11 +1,11 @@
 
 .kasaHeader {
     display: flex;
-    width: 1240px;
+    max-width: 1240px;
     height: 68px;
     justify-content: space-between;
     align-items: center;
-    gap: 720.678px;
+    width: 87%;
 }
 
 .kasaHeader img {
@@ -20,6 +20,14 @@
     gap: 57px;
 }
 
+.kasaHeader_nav_activated {
+    text-decoration: underline;
+}
+
+.kasaHeader_nav_notActivated {
+    text-decoration: none;
+}
+
 .kasaHeader_nav a {
     color: #FF6060;
     text-align: right;
@@ -28,7 +36,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: 142.6%;
-    text-decoration-line: none;
 }
 
 @media (max-width: 400px) {
