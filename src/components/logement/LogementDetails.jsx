@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import Classes from '../../styles/logement/LogementDetails.module.css';
-import Dropdown from "./Dropdown";
+import Dropdown from "../Dropdown";
 import Carousel from './Carousel';
 import logement from "../../data/logements.json";
 import StarRating from "./RatingStar";

@@ -1,5 +1,5 @@
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../Header';
+import Footer from '../Footer';
 import Classes from '../../styles/errorPage/Error404.module.css'
 import { Link } from 'react-router-dom';
 

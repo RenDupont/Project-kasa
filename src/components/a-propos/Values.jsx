@@ -1,5 +1,5 @@
 import Classes from '../../styles/a-propos/Values.module.css'
-import Dropdown from './Dropdown';
+import Dropdown from '../Dropdown';
 
 function Values() {
     const values = [

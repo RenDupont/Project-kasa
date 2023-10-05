@@ -1,5 +1,5 @@
-import Classes from '../../styles/a-propos/DropDown.module.css'
-import Arrow from '../../assets/arrow_back_ios-24px 2.svg'
+import Classes from '../styles/DropDown.module.css'
+import Arrow from '../assets/arrow_back_ios-24px 2.svg'
 import { useState } from 'react';
 
 function Dropdown({item}) {

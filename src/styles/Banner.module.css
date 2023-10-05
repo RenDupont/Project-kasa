@@ -3,14 +3,12 @@
     position: relative;
 }
 
-.kasaBanner div {
-    background-image: url('../../assets/IMG.png');
-    background-repeat: no-repeat;
+.kasaBanner img {
     width: 1240px;
     height: 223px;
-    background-position-y: -300px;
     border-radius: 25px;
     filter: brightness(70%);
+    object-fit: cover;
 }
 
 .kasaBanner p {
