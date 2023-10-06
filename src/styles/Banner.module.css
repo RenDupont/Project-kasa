@@ -1,10 +1,12 @@
 
 .kasaBanner {
     position: relative;
+    max-width: 1240px;
+    width: 87%;
 }
 
 .kasaBanner img {
-    width: 1240px;
+    width: 100%;
     height: 223px;
     border-radius: 25px;
     filter: brightness(70%);
@@ -23,4 +25,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
+}
+
+@media (max-width: 400px) {
+    .kasaBanner img {
+        height: 120px;
+    }
+
+    .kasaBanner p {
+        font-size: 24px;
+        line-height: 100%;
+        left: 7%;
+        transform: translate(0%, -50%);
+        max-width: 80%;
+    }
 }

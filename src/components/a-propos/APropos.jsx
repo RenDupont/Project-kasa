@@ -3,7 +3,7 @@ import Banner from '../Banner';
 import Footer from '../Footer';
 import Values from './Values';
 import Classes from '../../styles/a-propos/APropos.module.css'
-import Image from '../../assets/IMG.png'
+import Image from '../../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png'
 
 function APropos() {
     return (

@@ -1,6 +1,6 @@
 
 .kasaGallery {
-    width: 1240px;
+    max-width: 1240px;
     height: 829px;
     border-radius: 25px;
     background: #F6F6F6; 
@@ -10,4 +10,13 @@
     overflow: scroll;
     padding-top: 56px;
     padding-bottom: 43px;
+    width: 87%;
+}
+
+@media (max-width: 400px) {
+    
+    .kasaGallery {
+        padding-top: 0;
+        background: none;
+    }
 }

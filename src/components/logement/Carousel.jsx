@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ArrowNext from '../../assets/Vector.svg';
-import ArrowBack from '../../assets/chevron-left-solid.svg';
+import ArrowNext from '../../assets/rightArrow.svg';
+import ArrowBack from '../../assets/leftArrow.svg';
 import Classes from '../../styles/logement/Carousel.module.css';
 
 function Carousel({images}) {

@@ -3,7 +3,7 @@ import Header from '../Header';
 import Gallery from './Gallery'
 import Footer from '../Footer';
 import Classes from '../../styles/home/Home.module.css'
-import Image from '../../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png'
+import Image from '../../assets/IMG.png'
 
 function index() {
     return (
