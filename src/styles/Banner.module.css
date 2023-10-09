@@ -2,7 +2,7 @@
 .kasaBanner {
     position: relative;
     max-width: 1240px;
-    width: 87%;
+    width: 86%;
 }
 
 .kasaBanner img {
@@ -27,9 +27,10 @@
     margin: 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .kasaBanner img {
         height: 120px;
+        border-radius: 10px;
     }
 
     .kasaBanner p {

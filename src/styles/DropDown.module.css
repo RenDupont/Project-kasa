@@ -1,7 +1,6 @@
 
 .kasaDropdown {
     border-radius: 10px 10px 5px 5px;
-    background: var(--Gray, #F6F6F6);
     width: 100%
 }
 
@@ -27,12 +26,12 @@
 }
 
 .kasaDropdown_active {
-    transform: rotate(-180deg);
+    transform: rotate(0deg);
     transition: transform 300ms ease-in-out;
 }
 
 .kasaDropdown_notActive {
-    transform: rotate(0deg);
+    transform: rotate(180deg);
     transition: transform 300ms ease-in-out;
 }
 
@@ -50,4 +49,22 @@
     line-height: 142.6%;
     padding: 20px;
     margin: 0;
+    background: var(--Gray, #F6F6F6);
+}
+
+.kasaDropdown_description_active li {
+    list-style-type: none;
+}
+
+@media ( max-width: 450px ) {
+
+    .kasaDropdown_title {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+
+    .kasaDropdown_title img {
+        width: 27px;
+        height: 27px;
+    }
 }

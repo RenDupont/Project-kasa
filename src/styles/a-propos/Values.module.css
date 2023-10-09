@@ -8,9 +8,10 @@
     width: 71%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     
     .kasaValues {
-        width: 87%;
+        width: 86%;
+        gap: 25px;
     }
 }
