@@ -24,7 +24,7 @@ function Dropdown({item}) {
     };
 
     const changeArrow = isActive ? Classes.kasaDropdown_active : Classes.kasaDropdown_notActive;
-    const dropContent = isActive ? Classes.kasaDropdown_description_active : Classes.kasaDropdown_description
+    const dropContent = `${Classes.kasaDropdown_descriptions} ${isActive ? Classes.descriptions_active : Classes.descriptions_notActive}`;
 
     return (
         <div className={Classes.kasaDropdown}>

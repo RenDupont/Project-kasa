@@ -35,21 +35,28 @@
     transition: transform 300ms ease-in-out;
 }
 
-.kasaDropdown_description {
-    display: none;
-}
-
-.kasaDropdown_description_active {
-    display: block;
+.kasaDropdown_descriptions {
     color: #FF6060;
     font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 142.6%;
-    padding: 20px;
-    margin: 0;
     background: var(--Gray, #F6F6F6);
+}
+
+.descriptions_active {
+    opacity: 1;
+    max-height: 272px;
+    padding: 20px;
+    transition: all 300ms ease-in-out, padding 300ms ease-in;
+}
+
+.descriptions_notActive {
+    opacity: 0;
+    max-height: 0;
+    padding: 0;
+    transition: all 300ms ease-in-out, padding 300ms ease-in;
 }
 
 .kasaDropdown_description_active li {
