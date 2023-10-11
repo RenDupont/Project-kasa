@@ -4,11 +4,16 @@ import Dropdown from "../Dropdown";
 import Carousel from './Carousel';
 import logement from "../../data/logements.json";
 import StarRating from "./RatingStar";
+import Error404Message from "../error/Error404Message";
 
 
 function LogementDetails() {
     const {id} = useParams(); 
     const Logement = logement.find((it) => it.id === id)
+
+    if (!Logement) {
+        return <Error404Message />
+    }
 
     const values = [
         {
