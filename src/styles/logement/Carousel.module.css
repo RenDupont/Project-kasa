@@ -35,16 +35,30 @@
     fill: white;
 }
 
-@media (max-width: 400px) {
+
+
+@media (max-width: 600px) {
     .KasaCarousel {
         height: 255px;
-        max-width: 335px;
     }
 
     .KasaCarousel_cover {
         height: 255px;
     }
 
+    .kasaCarousel_next {
+        width: 35px;
+        height: 35px;
+    }
+
+    .KasaCarousel_previous {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 450px) {
+    
     .kasaCarousel_next {
         width: 24px;
         height: 24px;

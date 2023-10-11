@@ -35,9 +35,7 @@
 }
 
 @media (max-width: 400px) {
-    .kasaFooter {
-        max-width: 375px;
-    }
+
 
     .kasaFooter p {
         font-size: 12px;

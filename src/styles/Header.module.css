@@ -38,6 +38,23 @@
     line-height: 142.6%;
 }
 
+@media (450px <= width <= 560px) {
+
+    .kasaHeader img {
+        width: 170px;
+        height: 55px;
+    }
+
+    .kasaHeader_nav {
+        gap: 26px;
+        justify-content: flex-end; 
+    }
+
+    .kasaHeader_nav a {
+        font-size: 21px;
+    }
+}
+
 @media (max-width: 450px) {
     .kasaHeader {
         max-width: 86%;

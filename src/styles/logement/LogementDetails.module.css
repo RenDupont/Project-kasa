@@ -82,9 +82,54 @@
     margin-right: 15px;
 }
 
-@media (max-width: 400px) {
+@media (600px <= width <= 800px) {
     .kasaLogementDetails {
+        max-width: 800px;
+    }
+
+    .kasaLogementDetails h1 {
+        font-size: 20px;
+    }
+
+    .kasaLogementDetails h2 {
+        font-size: 14px;
+    }
+
+    .kasaLogementDetails_title {
+        width: 60%;
+    }
+
+    .kasaLogementDetails_tags {
+        max-width: 270px;
+    }
+
+    .kasaLogementDetails_tags div {
+        min-width: 84px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+
+    .kasaLogementDetails_details {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .kasaLogementDetails_host {
+        justify-content: flex-end;
+        align-items: center;
         max-width: 336px;
+        margin-bottom: 15px;
+    }
+
+    .kasaLogementDetails_host img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .kasaLogementDetails {
+        max-width: 505px;
     }
 
     .kasaLogementDetails h1 {
@@ -114,7 +159,7 @@
         position: initial;
         justify-content: flex-end;
         align-items: center;
-        max-width: 336px;
+        max-width: 505px;
         margin-bottom: 15px;
     }
 

@@ -13,7 +13,13 @@
     width: 87%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1390px) {
+    .kasaGallery {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
     
     .kasaGallery {
         padding-top: 0;
